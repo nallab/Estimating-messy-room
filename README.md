@@ -8,3 +8,7 @@ python aug_and_feature_extract.py
 ```
 python retrain.py
 ```
+### 識別層の学習後、予測したい部屋の画像の特徴を抽出させ予測を行います。
+```
+python predict.py
+```
