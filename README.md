@@ -1,4 +1,5 @@
 # Estimating-messy-room
+#### 本実験では、先行研究である[messy-room](https://github.com/GuanqiaoDing/messy-room-classifier)を元に行う。
 ## 実験手順
 ### 予備実験
 #### まずは特徴抽出を行う。ImageNetの重みを使用したXceptionモデルを用いてデータセットの画像から特徴を抽出します。
