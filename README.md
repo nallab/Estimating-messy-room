@@ -21,13 +21,17 @@ python predict.py
 ```
 python img_download.py
 ```
+#### 収集した画像をnumpy配列に変換し、npyファイルとして保存する。対象の画像をobj以下に置き実行
+```
+python convert_img_to_array.py
+```
 #### 収集した画像に対してのラベル付与を行う。今回はゼミのメンバーにアンケートを行い集計しその結果からラベルを付与します。アンケートはgoogleスプレッドシートで行い結果をcsvファイルにして出力します。その後に、集計を行います。totalにアンケート結果のcsvファイルを置きtotal.pyを実行する
 ```
 python total.py
 ```
 
 ### 3.追加実験2
-#### Grad-CAMを用いて、特徴抽出の際の重みを可視化する。
+#### Grad-CAMを用いて、特徴抽出の際の重みを可視化する。images以下に対象の画像を置き実行する
 ```
 python keras-grad.py
 ```
