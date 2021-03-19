@@ -3,7 +3,7 @@
 #### 使用する画像は[kaggleデータセット](https://www.kaggle.com/cdawn1/messy-vs-clean-room)を用いる。
 ## 実験手順
 ### 1.予備実験
-#### まずは特徴抽出を行う。ImageNetの重みを使用したXceptionモデルを用いてデータセットの画像から特徴を抽出します。
+#### まずは特徴抽出を行う。data以下に、images.npyとlabels.npyファイルを置く。そのファイルからImageNetの重みを使用したXceptionモデルを用いてデータセットの画像から特徴を抽出します。
 ```
 python aug_and_feature_extract.py
 ```
